@@ -7,6 +7,7 @@ class ColorManager {
   static const Color darkGrey = Color.fromARGB(255, 140, 135, 135);
   static const Color white = Color(0xFFFFFFFF);
   static const Color black = Color(0xFF4A4A4A);
+  static const Color blue = Color(0xFF7BB3FF);
   static const Color error = Color(0xFFe61f34);
   static const Color green = Color(0xFF027505);
   static const Color pink = Color(0xFFEA94D7);

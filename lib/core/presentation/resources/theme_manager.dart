@@ -23,7 +23,7 @@ ThemeData getLightTheme() => ThemeData(
             color: ColorManager.white,
             fontSize: FontSizeManager.s18,
           ),
-          primary: ColorManager.lightBlue,
+          primary: ColorManager.blue,
           shape: const RoundedRectangleBorder(
             borderRadius: BorderRadius.all(Radius.circular(Sizes.s12)),
           ),
