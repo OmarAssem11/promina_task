@@ -9,8 +9,9 @@ class ColorManager {
   static const Color black = Color(0xFF4A4A4A);
   static const Color error = Color(0xFFe61f34);
   static const Color green = Color(0xFF027505);
-  static const Color lightBlue = Color(0xFF7BB3FF);
   static const Color pink = Color(0xFFEA94D7);
   static const Color lightPink = Color.fromARGB(255, 252, 204, 242);
   static const Color orange = Color.fromRGBO(255, 152, 0, 1);
+  static const Color lightPurple = Color(0xFFEFD8F9);
+  static const Color lightBlue = Color(0xFFEBF6FF);
 }

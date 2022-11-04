@@ -55,9 +55,6 @@ ThemeData getLightTheme() => ThemeData(
           color: ColorManager.black,
           fontSize: FontSizeManager.s16,
         ),
-        bodySmall: getRegularTextStyle(
-          color: ColorManager.grey,
-        ),
       ),
     );
 
@@ -99,9 +96,6 @@ ThemeData getDarkTheme() => ThemeData(
         bodyMedium: getMediumTextStyle(
           color: ColorManager.lightGrey,
           fontSize: FontSizeManager.s14,
-        ),
-        bodySmall: getRegularTextStyle(
-          color: ColorManager.grey,
         ),
       ),
     );

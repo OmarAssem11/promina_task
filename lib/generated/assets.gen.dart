@@ -12,12 +12,18 @@ import 'package:flutter/widgets.dart';
 class $AssetsImagesGen {
   const $AssetsImagesGen();
 
+  /// File path: assets/images/camera.png
+  AssetGenImage get camera => const AssetGenImage('assets/images/camera.png');
+
+  /// File path: assets/images/gallery.png
+  AssetGenImage get gallery => const AssetGenImage('assets/images/gallery.png');
+
   /// File path: assets/images/login_top_left.png
   AssetGenImage get loginTopLeft =>
       const AssetGenImage('assets/images/login_top_left.png');
 
   /// List of all assets
-  List<AssetGenImage> get values => [loginTopLeft];
+  List<AssetGenImage> get values => [camera, gallery, loginTopLeft];
 }
 
 class Assets {

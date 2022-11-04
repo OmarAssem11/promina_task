@@ -24,6 +24,7 @@ class MessageLookup extends MessageLookupByLibrary {
   static Map<String, Function> _notInlinedMessages(_) => <String, Function>{
         "areYouSureYouWantToLogout": MessageLookupByLibrary.simpleMessage(
             "هل انت متأكد انك تريد تسجيل خروج؟"),
+        "camera": MessageLookupByLibrary.simpleMessage("الكاميرا"),
         "canNotBeEmpty":
             MessageLookupByLibrary.simpleMessage("لا يمكن ان يكون فارغ"),
         "emailAddress":

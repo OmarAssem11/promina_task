@@ -11,12 +11,13 @@ class ImageItem extends StatelessWidget {
   Widget build(BuildContext context) {
     return CachedNetworkImage(
       imageUrl: imageUrl,
-      imageBuilder: (context, imageProvider) => DecoratedBox(
+      imageBuilder: (_, imageProvider) => DecoratedBox(
         decoration: BoxDecoration(
           image: DecorationImage(
             image: imageProvider,
+            fit: BoxFit.cover,
           ),
-          borderRadius: const BorderRadius.all(Radius.circular(Sizes.s16)),
+          borderRadius: const BorderRadius.all(Radius.circular(Sizes.s32)),
         ),
       ),
     );

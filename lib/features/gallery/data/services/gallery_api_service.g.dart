@@ -49,13 +49,20 @@ class _GalleryAPIService implements GalleryAPIService {
     const _extra = <String, dynamic>{};
     final queryParameters = <String, dynamic>{};
     final _headers = <String, dynamic>{};
-    final _data =
-        Stream.fromIterable(imageFile.readAsBytesSync().map((i) => [i]));
+    final _data = FormData();
+    _data.files.add(MapEntry(
+      'img',
+      MultipartFile.fromFileSync(
+        imageFile.path,
+        filename: imageFile.path.split(Platform.pathSeparator).last,
+      ),
+    ));
     final _result = await _dio.fetch<Map<String, dynamic>>(
         _setStreamType<ResponseModel<dynamic>>(Options(
       method: 'POST',
       headers: _headers,
       extra: _extra,
+      contentType: 'multipart/form-data',
     )
             .compose(
               _dio.options,

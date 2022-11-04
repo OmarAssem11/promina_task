@@ -22,7 +22,7 @@ class CustomMaterialButton extends StatelessWidget {
       elevation: 0,
       padding: const EdgeInsets.symmetric(
         horizontal: Insets.m,
-        vertical: Insets.xxs,
+        vertical: Insets.xs,
       ),
       shape: const RoundedRectangleBorder(
         borderRadius: BorderRadius.all(Radius.circular(Sizes.s12)),
@@ -31,8 +31,8 @@ class CustomMaterialButton extends StatelessWidget {
       child: Row(
         children: [
           Container(
-            height: Sizes.s32,
-            width: Sizes.s32,
+            height: Sizes.s30,
+            width: Sizes.s36,
             decoration: BoxDecoration(
               color: color,
               borderRadius: const BorderRadius.all(Radius.circular(Sizes.s12)),

@@ -19,7 +19,8 @@ abstract class GalleryAPIService {
   Future<ResponseModel<GalleryModel>> getGallery();
 
   @POST(APIConstants.uploadImageEndpoint)
+  @MultiPart()
   Future<ResponseModel> uploadImage(
-    @Body() File imageFile,
+    @Part(name: APIConstants.imageKey) File imageFile,
   );
 }

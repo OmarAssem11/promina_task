@@ -8,4 +8,6 @@ class APIConstants {
   //Headers
   static const String authorization = 'Authorization';
   static const String tokenType = 'Bearer';
+  //Keys
+  static const String imageKey = 'img';
 }

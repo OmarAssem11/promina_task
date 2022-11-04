@@ -32,8 +32,15 @@ Route<dynamic> onGenerateRoute(RouteSettings settings) {
       );
     case AppRoutes.gallery:
       return MaterialPageRoute(
-        builder: (_) => BlocProvider(
-          create: (_) => getIt<GalleryCubit>(),
+        builder: (_) => MultiBlocProvider(
+          providers: [
+            BlocProvider(
+              create: (_) => getIt<AuthCubit>(),
+            ),
+            BlocProvider(
+              create: (_) => getIt<GalleryCubit>(),
+            ),
+          ],
           child: const GalleryScreen(),
         ),
       );

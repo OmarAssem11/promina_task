@@ -18,5 +18,6 @@
     "my": "My",
     "gallery": "Gallery",
     "upload": "upload",
-    "wrongEmailOrPassword": "Wrong email or password"
+    "wrongEmailOrPassword": "Wrong email or password",
+    "camera": "Camera"
 }
