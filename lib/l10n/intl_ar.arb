@@ -1,0 +1,23 @@
+{
+    "noPageFound": "!لا يوجد صفحة",
+    "somethingWentWrong": "!حدث خطأ",
+    "login": "نسجيل دخول",
+    "emailAddress": "البريد الإكتروني",
+    "password": "كلمة السر",
+    "userName": "إسم المستخدم",
+    "canNotBeEmpty": "لا يمكن ان يكون فارغ",
+    "emailCanNotBeEmpty": "البريد الإكتروني لا يمكن ان يكون فارغ",
+    "invalidEmailFormat": "صيغة الريد الإكتروني خاطئة",
+    "passwordCanNotBeLessThanEightCharacters": "كلمة السر لا يمكن ان تكون اقل من ٨ حروف",
+    "submit": "تأكيد",
+    "logout": "تسجيل خروج",
+    "welcome": "اهلا",
+    "areYouSureYouWantToLogout": "هل انت متأكد انك تريد تسجيل خروج؟",
+    "yes": "نعم",
+    "no": "لا",
+    "my": "",
+    "gallery": "الأستوديو",
+    "upload": "رفع",
+    "wrongEmailOrPassword": "البريد الإكتروني او كلمة السر خطأ"
+
+}

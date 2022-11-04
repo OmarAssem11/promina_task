@@ -1,0 +1,22 @@
+{
+    "noPageFound": "No page found!",
+    "somethingWentWrong": "Something went wrong!",
+    "login": "LOGIN",
+    "emailAddress": "Email address",
+    "password": "Password",
+    "userName": "User Name",
+    "canNotBeEmpty": "Can't be empty",
+    "emailCanNotBeEmpty": "Email can't be empty",
+    "invalidEmailFormat": "Invalid email format",
+    "passwordCanNotBeLessThanEightCharacters": "Password can't be less than eight characters",
+    "submit": "Submit",
+    "logout": "logout",
+    "welcome": "Welcome",
+    "areYouSureYouWantToLogout": "Are you sure you want to logout?",
+    "yes": "Yes",
+    "no": "No",
+    "my": "My",
+    "gallery": "Gallery",
+    "upload": "upload",
+    "wrongEmailOrPassword": "Wrong email or password"
+}
